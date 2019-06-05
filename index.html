@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+   <form name= "calc">
+     <!--set placeholder to hold an input and a result after calculation -->
+     <input type= "text" name="display" placeholder="0">
+     <!--create the 1st row for the user to click on as input -->
+     <input type= "button" value="7" onclick ="input(this)">
+     <input type= "button" value="8" onclick ="input(this)">
+     <input type= "button" value="9" onclick ="input(this)">
+     <input type= "button" value="+" onclick ="input(this)">
+    <!--create the 2nd row for the user to click on as input -->
+    <input type="button" value= "4" onclick ="input(this)">
+    <input type="button" value= "5" onclick ="input(this)">
+    <input type="button" value= "6" onclick ="input(this)">
+    <input type="button" value= "-" onclick ="input(this)">
+    <!--create the 3th row for the user to click on as input -->
+    <input type="button" value= "1" onclick ="input(this)">
+    <input type="button" value= "2" onclick ="input(this)">
+    <input type="button" value= "3" onclick ="input(this)">
+    <input type="button" value= "*" onclick ="input(this)">
+    <!--create the 4th row for the user to click on as input -->
+    <input type="button" value= "0" onclick ="input(this)">
+    <input type="button" value= "." onclick ="input(this)">
+    <input type="button" value= "C" onclick = "clearDisplay()">
+    <input type="button" value= "/" onclick ="input(this)">
+    <!--create the 5th row for the user to click on as input -->
+    <input type="button" value= "," onclick ="input(this)">
+    <input type="button" value= "AVG" onclick = "average()" style ="width: 90px">
+    <input type="button" value= "=" onclick = "enter()" style="width: 95px">
+    
+
+   </form>
+    <script src="script.js"></script>
+  </body>
+</html>
